@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="module">
-        import 'webcomponent-qr-code'
+        import 'webcomponent-qr-code';
+        import '@google-web-components/google-chart';
     </script>
 </head>
 <body>
-    <h1>Hi</h1>
-    <qr-code data="hello world!"></qr-code>
+    <h1>Lab 3: Implementing third-party components and libraries</h1>
+    <h2>Qr code</h2>
+    <qr-code data="https://gbc.goodcodeclub.com"></qr-code>
+    <h2>Google chart</h2>
+    <google-chart data='[["Month", "Days"], ["Jan", 31]]'></google-chart>
 </body>
 </html>
